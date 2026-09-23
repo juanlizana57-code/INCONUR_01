@@ -678,19 +678,17 @@ setTimeout(function(){
 
 <script>
 
-const btnInfoProyecto = document.getElementById("btn-info-proyecto");
-const infoProyecto = document.getElementById("info-proyecto");
+/*
+=====================================
+BOTON INFORMACION DEL PROYECTO
+=====================================
+*/
 
+$("#btn-info-proyecto").click(function(){
 
-if(btnInfoProyecto){
+    $("#info-proyecto").toggle();
 
-    btnInfoProyecto.addEventListener("click", function(){
-
-        infoProyecto.classList.toggle("activo");
-
-    });
-
-}
+});
 
 </script>
 
